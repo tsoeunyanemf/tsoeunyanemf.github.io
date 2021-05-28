@@ -2,7 +2,7 @@
 
 This ePortfolio was carefully designed to exhibit the result of my MSc studies in Computer Science at the University of Essex, UK.  
  
-Check [my ePortfolio](https://alicevillar.github.io/ePortifolio_MSc_Essex/)
+Check [my ePortfolio](https://alicevillar.github.io/eportifolio-msc-essex/)
 
 
 ## Module 1: Launching into Computer Science (LCS)
