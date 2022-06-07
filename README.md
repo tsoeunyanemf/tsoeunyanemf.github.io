@@ -5,15 +5,15 @@ This ePortfolio was carefully designed to exhibit the result of my MSc studies i
 
 ## Module 1: Launching into Computer Science (LCS)
 ### Content Summary
-* Unit 1: Computing as a Profession – Responsibilities and Challenges
-* Unit 2: Introduction to Computer Architecture and the Functionality
-* Unit 3: Emerging Trends in Computer Science
-* Unit 4: Computing Infrastructure and Network
-* Unit 5: Software as a Tool - Its Functionality and Development Methodologies
-* Unit 6: System Software – Operating Systems
-* Unit 7: Data Abstraction
-* Unit 8: An Introduction to Algorithms and Basic Programming Concepts
-* Unit 9: Solving Problems Using Python
-* Unit 10: Data Representation using Database Concepts
-* Unit 11: Advanced SQL
-* Unit 12: Research Topics in Computer Science – Data Science, AI and Standards 
+* Unit 1: Introduction to Cyber Security
+* Unit 2: Cyber Security Issues and Their Implications for Businesses
+* Unit 3: Approaches to Cyber Security Design
+* Unit 4: Threat Identification and Modelling
+* Unit 5: Object-oriented Analysis, Design and Programming Techniques for Secure Systems
+* Unit 6: Application of UML to Secure Software Design
+* Unit 7: Database Design and Implementation
+* Unit 8: Introduction to Python programming and MySQL
+* Unit 9: OOP Application of Principles and Concepts
+* Unit 10: Secure Web development
+* Unit 11: Introduction to Secure Web Programming with DJango
+* Unit 12: A Look into the Future of Cyber Security 
