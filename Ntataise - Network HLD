@@ -1,9 +1,102 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="27.0.6">
   <diagram name="Page-1" id="a9wE1qXAZjwIVkHyhntL">
-    <mxGraphModel>
+    <mxGraphModel dx="1510" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="108fRxzaEigxRdTMKDWq-2" value="Security Tools" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="849" y="20" width="532" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="108fRxzaEigxRdTMKDWq-3" value="Internal Network" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="849" y="268" width="532" height="354" as="geometry" />
+        </mxCell>
+        <mxCell id="108fRxzaEigxRdTMKDWq-4" value="Internet" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="240" width="118" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="108fRxzaEigxRdTMKDWq-5" value="DMZ: HAProxy/NGINX" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="238" y="240" width="212" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="108fRxzaEigxRdTMKDWq-6" value="API Gateway" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="606" y="368" width="150" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="108fRxzaEigxRdTMKDWq-7" value="Backend Services" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="874" y="368" width="183" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="108fRxzaEigxRdTMKDWq-8" value="Database" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1229" y="303" width="80" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="108fRxzaEigxRdTMKDWq-9" value="Redis" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1243" y="421" width="52" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="108fRxzaEigxRdTMKDWq-10" value="Ollama AI" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1206" y="533" width="128" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="108fRxzaEigxRdTMKDWq-11" value="Firewall" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="907" y="55" width="118" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="108fRxzaEigxRdTMKDWq-12" value="IDS/IPS" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1214" y="55" width="111" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="108fRxzaEigxRdTMKDWq-13" value="HashiCorp Vault" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1183" y="159" width="173" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="108fRxzaEigxRdTMKDWq-14" value="HTTPS" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="108fRxzaEigxRdTMKDWq-4" target="108fRxzaEigxRdTMKDWq-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="108fRxzaEigxRdTMKDWq-15" value="HTTPS + mTLS" style="curved=1;startArrow=none;endArrow=block;exitX=0.68;exitY=1;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="108fRxzaEigxRdTMKDWq-5" target="108fRxzaEigxRdTMKDWq-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="528" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="108fRxzaEigxRdTMKDWq-16" value="mTLS" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="108fRxzaEigxRdTMKDWq-6" target="108fRxzaEigxRdTMKDWq-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="108fRxzaEigxRdTMKDWq-17" value="Encrypted" style="curved=1;startArrow=none;endArrow=block;exitX=0.9;exitY=-0.01;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="108fRxzaEigxRdTMKDWq-7" target="108fRxzaEigxRdTMKDWq-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="337" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="108fRxzaEigxRdTMKDWq-18" value="Encrypted" style="curved=1;startArrow=none;endArrow=block;exitX=0.9;exitY=0.99;entryX=0.01;entryY=0.51;rounded=0;" edge="1" parent="1" source="108fRxzaEigxRdTMKDWq-7" target="108fRxzaEigxRdTMKDWq-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="452" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="108fRxzaEigxRdTMKDWq-19" value="Encrypted" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=0.99;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="108fRxzaEigxRdTMKDWq-7" target="108fRxzaEigxRdTMKDWq-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="108fRxzaEigxRdTMKDWq-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.63;exitY=0;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="108fRxzaEigxRdTMKDWq-5" target="108fRxzaEigxRdTMKDWq-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="528" y="82" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="108fRxzaEigxRdTMKDWq-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="108fRxzaEigxRdTMKDWq-11" target="108fRxzaEigxRdTMKDWq-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="108fRxzaEigxRdTMKDWq-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.73;exitY=-0.01;entryX=0.29;entryY=1;rounded=0;" edge="1" parent="1" source="108fRxzaEigxRdTMKDWq-7" target="108fRxzaEigxRdTMKDWq-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="297" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
